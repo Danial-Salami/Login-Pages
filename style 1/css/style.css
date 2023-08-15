@@ -1,0 +1,113 @@
+@font-face {
+    font-family: WorkSans;
+    src: url(../../Work_Sans_font/static/WorkSans-BoldItalic.ttf);
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: WorkSans;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.wel-div {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.avatar {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-image: url(./avatar.jpg);
+    background-size: cover;
+}
+
+.box {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+input {
+    width: 260px;
+    margin: 15px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid;
+    padding-bottom: 8px;
+}
+
+button {
+    width: 260px;
+    height: 30px;
+    background-color: rgba(33, 161, 33, 0.664);
+    cursor: pointer;
+    border-radius: 15px;
+    margin: 15px;
+    box-shadow: 2px 2px 20px 2px rgb(185, 183, 183);
+    outline: none;
+    color: white;
+    border: none;
+}
+
+.links {
+    width: 100%;
+    display: flex;
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+p {
+    color: gray;
+    width: 260px;
+    margin: 2px;
+}
+
+span {
+    color: green;
+    cursor: pointer;
+}
